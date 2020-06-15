@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+
+}
+section{
+    height: 100vh;
+    background-color: #000;
+}
+vedio{
+    object-fit: cover;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }  
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+h1 span:nth-child(1){
+    animation-delay: 0.5s;
+    color: red;
+
+}
+h1 span:nth-child(2){
+    animation-delay: 1s;
+    color: yellow;
+}
+h1 span:nth-child(3){
+    animation-delay: 1.5s;
+    color: purple;
+}
+h1 span:nth-child(4){
+    animation-delay: 2s;
+    color: greenyellow;
+}
+h1 span:nth-child(5){
+    animation-delay: 2.5s;
+    color: blueviolet;
+}
+code{
+    background: #000;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
