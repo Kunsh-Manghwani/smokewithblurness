@@ -7,7 +7,7 @@ body{
 section{
     height: 100vh;
     background-color: #000;
-}
+}/*
 section:before{
     content: '';
     position: absolute;
@@ -18,8 +18,8 @@ section:before{
     background: linear-gradient(to right,#f00,#f00,#0f0,#0ff,#ff0,#0ff);
     mix-blend-mode: color-dodge;
     pointer-events: none;
-}
-
+}*/
+/*use this when you want coloured smoke */
 vedio{
     object-fit: cover;
 }
